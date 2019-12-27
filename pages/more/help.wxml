@@ -1,0 +1,98 @@
+<view class="page__hd">
+  <image class="weui-media-box__thumb" src="/images/help_icon.png" />
+  <view class="page__title">课前准备</view>
+  <view class="page__desc">恭喜你发现LingoCode的课前准备使用帮助</view>
+</view>
+<view class="page__bd">
+  <view class="weui-article">
+    <view class="weui-article__h1" style="color:#43B0D1;">1. 如何更方便的使用LingCode客户端?</view>
+    <view class="weui-article__section">
+      <view class="weui-article__section">
+        <view class="weui-article__h3">1.1 下载客户端</view>
+        <view class="weui-article__p">
+          ① 先准备一台电脑。要求 Windows7及以上 或 Mac OS X 以上操作系统。编程是需要操作环境的，所以手机不可以学习哦~
+        </view>
+        <view class="weui-article__p">② 打开浏览器，在网址栏输入  
+          lingoCode.con 下载并安装。</view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">1.2 微信登陆</view>
+        <view class="weui-article__p">
+          <text>①   微信登录</text>
+          <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+          <text>用【购课微信】扫码二维码，修改学生信息，便于老师进行针对性的指导哦~</text>
+          <text>② 账号登录</text>
+          <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+          <text>关注【Lingo凌高编程训练营】公众号，点击公众号左下方【我的课程】，然后点击【我的】，点击【账号登录】修改密码。</text>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">1.3 家长必备课</view>
+        <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+        <view class="weui-article__p">下载好客户端之后需要您点击进入课程，完成家长必备课有助于孩子后面更好的学习哦~</view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">1.4 通过小程序【核桃家长】可以提前知道孩子的上课时间。还没有体验过的家长，请扫码体验👇👇👇</view>
+        <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">1.5 关注【核桃编程营】公众号，以便家长了解孩子的学习情况哦~</view>
+        <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      </view>
+    </view>
+    <view class="weui-article__h1" style="color:#43B0D1;">2. 上课流程</view>
+    <view class="weui-article__section">
+      <view class="weui-article__h3">2.1 学习课程+做任务</view>
+      <view class="weui-article__p">①点击【进入课程】</view>
+      <view class="weui-article__p">②依次完成课堂小任务</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h3">2.2 小朋友在学习过程中如果遇到问题，有以下几个解决方案👇👇👇</view>
+      <view class="weui-article__p">方案一：点击右上角【全部任务】列表，回看讲解视频</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      <view class="weui-article__p">方案二：点击右上方【我要提问】，将你遇到的问题告诉老师寻求帮助哦~</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      <view class="weui-article__p">方案三：方案三：点击右侧【提示】按钮，小朋友可以根据老师给的提示进行下一步操作哦~</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h3">2.3 完成作业</view>
+      <view class="weui-article__p">①提交作业</view>
+      <view class="weui-article__p">②在课程中，有些挑战是需要提交作业的！点击右上角【交作业】</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      <view class="weui-article__p">② 联系老师答疑</view>
+      <view class="weui-article__p">有什么不懂的地方，可以与老师交流提问，点击右上角【我要提问】</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      <view class="weui-article__p">③ 查看学习情况&作业评语</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      <view class="weui-article__h3">2.4 每节课结束后，使用【Lingo家长】小程序，就可以在线查看课程电子版讲义</view>
+      <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+    </view>
+    <view class="weui-article__h1" style="color:#43B0D1;">3. 常见问题</view>
+    <view class="weui-article__section">
+      <view class="weui-article__section">
+        <view class="weui-article__h3">3.1 如果视频卡顿怎么办？</view>
+        <view class="weui-article__p">遇到视频卡顿的情况不要着急，可以点击右上角【切换线路】按钮进行切换</view>
+        <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">3.2 错过上课时间怎么办？</view>
+        <view class="weui-article__p">不用担心，可以回看课程呦！按照课程学习步骤进入课程即可学习~</view>
+        <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">3.3 为什么手机不能上课？</view>
+        <view class="weui-article__p">编程和其他学科不一样，讲究一学九练，是需要反复操作和练习的，电脑屏幕大，有键盘和鼠标，更方便操作</view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">3.4 如果遇到其他问题，请及时联系您的班主任老师~</view>
+        <view class="weui-article__p">编程和其他学科不一样，讲究一学九练，是需要反复操作和练习的，电脑屏幕大，有键盘和鼠标，更方便操作</view>
+        <image src='../../images/parent.jpg' class="QRcodeImg"></image>
+      </view>
+    </view>
+  </view>
+  <view class="button-sp-area">
+    <button open-type="share" class="weui-btn" type="primary" plain="true">分享Lingo凌高编程</button>
+  </view>
+</view>

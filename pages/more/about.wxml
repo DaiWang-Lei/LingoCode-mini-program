@@ -1,0 +1,20 @@
+<view class="page__hd">
+  <image class="weui-media-box__thumb" src="/images/core/table.png" />
+  <view class="page__title">「LingoCode」凌高编程</view>
+  <view class="page__desc">赋能你的创造力。专为未成年人打造的编程语言，让广大未成年人知识不断层，永远爱编程。</view>
+</view>
+<view class="page__bd">
+  <view class="weui-article">
+    <view class="weui-article__p">「Lingo凌高编程」诚挚的欢迎公众号关联小程序，并期待与您合作。</view>
+    <view class="weui-article__p" style="color:#43B0D1;">数据来源：</view>
+    <view class="weui-article__p">· 课程信息数据来自Lingo凌高编程官方网站</view>
+    <view class="weui-article__p" style="color:#43B0D1;">技术支持：</view>
+    <view class="weui-article__p">· 凌高编程</view>
+    <view class="weui-article__p">· QQ：1403693160 </view>
+    <view class="weui-article__p">目前小程序的功能正在逐渐增加中，立志成为广大未成年人的的小帮手。如果你在使用中有问题或建议，请点击下方联系客服。</view>
+    <view class="weui-center">
+      <button class="weui-btn mini-btn" size="mini" open-type="contact">联系客服</button>
+      <button class="weui-btn mini-btn" size="mini" open-type="share">分享朋友</button>
+    </view>
+  </view>
+</view>

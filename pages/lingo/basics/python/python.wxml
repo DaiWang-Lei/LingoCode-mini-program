@@ -1,0 +1,4 @@
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+  <lingo title='对接英文和python' progress='已完成步骤0/2' theDay='{{theDay}}' ></lingo>
+</view>

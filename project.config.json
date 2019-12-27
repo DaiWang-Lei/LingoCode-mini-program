@@ -1,0 +1,57 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.9",
+	"appid": "wx250d21ea6a1f4fcc",
+	"projectname": "LingoCode-mini-program",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "发现更多",
+					"pathName": "pages/more/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "课前准备",
+					"pathName": "pages/more/help",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关于凌高",
+					"pathName": "pages/more/about",
+					"query": ""
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "物联网",
+  "usingComponents": {
+    "lingo": "/comments/lingo"
+  }
+}
