@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "智能机器人课程",
   "usingComponents": {
-    "lingo": "/comments/lingo"
+    "lingo": "/comments/lingo/lingo"
   }
 }

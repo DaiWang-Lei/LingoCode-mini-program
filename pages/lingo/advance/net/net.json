@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "网络编程",
   "usingComponents": {
-    "lingo": "/comments/lingo"
+    "lingo": "/comments/lingo/lingo"
   }
 }
