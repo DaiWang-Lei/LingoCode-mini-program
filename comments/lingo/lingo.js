@@ -1,4 +1,4 @@
-// pages/lingo/ling o.js
+
 Component({
   /**
    * 组件的属性列表

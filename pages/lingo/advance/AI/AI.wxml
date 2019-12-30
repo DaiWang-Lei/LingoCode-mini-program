@@ -1,4 +1,5 @@
 
 <view class="" hover-class="none" hover-stop-propagation="false">
   <lingo title='AI算法入门' progress='已完成步骤1/3' theDay='{{theDay}}' ></lingo>
+   
 </view>

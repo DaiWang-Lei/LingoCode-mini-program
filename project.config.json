@@ -35,7 +35,7 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "发现更多",
+					"name": "个人中心",
 					"pathName": "pages/more/index",
 					"query": ""
 				},
