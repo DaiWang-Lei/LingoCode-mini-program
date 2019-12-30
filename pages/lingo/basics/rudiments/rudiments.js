@@ -7,26 +7,26 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
-    today: '', //今日课程
-    todayWeek: '', //开学周期 week周 day星期
-    theDay: '', //今日时间
-    todayClassName: '' //今日课程班级
-  },
+  // data: {
+  //   today: '', //今日课程
+  //   todayWeek: '', //开学周期 week周 day星期
+    // theDay: '', //今日时间
+  //   todayClassName: '' //今日课程班级
+  // },
   getToday: function (todayClassName) {
     api.getToday({
       query: {
         name: todayClassName
       },
-      success: (res) => {
-        let today = res.data
-        let todayWeek = api.todayInfo(res.data.startTime)
-        this.setData({ today, todayWeek })
-      },
-      fail: (res) => {
-        let today = 'error'
-        this.setData({ today })
-      },
+      // success: (res) => {
+      //   let today = res.data
+      //   let todayWeek = api.todayInfo(res.data.startTime)
+      //   this.setData({ today, todayWeek })
+      // },
+      // fail: (res) => {
+      //   let today = 'error'
+      //   this.setData({ today })
+      // },
       complete: (res) => {
         let theDay = api.getDate() + api.getDay()
         this.setData({ theDay })

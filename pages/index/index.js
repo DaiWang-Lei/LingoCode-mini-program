@@ -21,15 +21,15 @@ Page({
       query: {
         name: todayClassName
       },
-      success: (res) => {
-        let today = res.data
-        let todayWeek = api.todayInfo(res.data.startTime)
-        this.setData({ today, todayWeek })
-      },
-      fail: (res) => {
-        let today = 'error'
-        this.setData({ today })
-      },
+      // success: (res) => {
+      //   let today = res.data
+      //   let todayWeek = api.todayInfo(res.data.startTime)
+      //   this.setData({ today, todayWeek })
+      // },
+      // fail: (res) => {
+      //   let today = 'error'
+      //   this.setData({ today })
+      // },
       complete: (res) => {
         let theDay = api.getDate() + api.getDay()
         this.setData({ theDay })
