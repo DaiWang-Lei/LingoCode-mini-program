@@ -1,47 +1,39 @@
 <view class="circle">
-  <view class="page__hd">
-    <view class="weui-panel border-shadow">
-      <view class="weui-panel__bd">
-        <!-- <view class="weui-media-box" wx:if="{{todayClassName == 'none'}}"> -->
-        <view class="weui-media-box">
-          <view class="weui-cells__tips">LingoCode 赋能你的创造力</view>
-        </view>
-      </view>
-    </view>
+  <view class="page__hd" style="margin-top: 50rpx">
+    欢迎回来
+  </view>
+  <view class="page__hd" style="font-size: large; margin-bottom: 50rpx; font-weight: normal">
+    小岛秀夫同学的学习情况如下
   </view>
   <view class="page__bd">
-    <view class="weui-panel">
+    <view class="topImg">
       <view class="weui-grids">
-        <navigator url="/pages/core/table/index" class="weui-grid" hover-class="weui-grid_active">
-          <image class="weui-grid__icon" src="/images/tabbar/table.png" />
-          <view class="weui-grid__label">课程资料</view>
-        </navigator>
-        <navigator url="/pages/more/help" class="weui-grid" hover-class="weui-grid_active">
-          <image class="weui-grid__icon" src="/images/tabbar/room.png" />
-          <view class="weui-grid__label">如何上课</view>
-        </navigator>
-        <navigator url="/pages/core/lib/index" class="weui-grid" hover-class="weui-grid_active">
-          <image class="weui-grid__icon" src="/images/tabbar/lib.png" />
-          <view class="weui-grid__label">课程资料</view>
-        </navigator> 
+        <view class='vague2'></view>
+        <image src="../../images/lingo/how2.jpg" mode='widthFix'></image>
+        <text class="who_class">点击了解如何上课</text>
       </view>
     </view>
-    <block>
-      <text class='lingoTitle'>LingoCode核心基础课程</text>
-        <view wx:for="{{basicsTitle}}" class='lingoInfo' wx:key='{{index}}'bindtap="nextPage" id='{{index}}'>
-          <image class="lingoInfoImg" src="{{basicsImgSrc[index]}}" />
-          <text class='lingoText'>{{item}}</text>
-          <text class='lingoTime'>{{theDay}}</text>
-        </view>
-    </block>
-     <block>
-      <text class='lingoTitle'>LingoCode提升飞跃课程</text>
-        <view wx:for="{{advanceTitle}}" class='lingoInfo' wx:key='{{index}}'bindtap="advanceNextPage" id='{{index}}'>
-          <image class="lingoInfoImg" src="{{advanceImgSrc[index]}}" />
-          <text class='lingoText'>{{item}}</text>
-          <text class='lingoTime'>{{theDay}}</text>
-        </view>
-    </block>
-    <view class="weui-footer weui-center">- 我没有底线 -</view>
   </view>
+  <view class="core_class">
+    <view>
+      <view class='lingoTitle'>LingoCode 核心基础课程</view>
+      <view wx:for="{{basicsTitle}}" class='lingoInfo lingoInfo{{[index]}}' wx:key='{{index}}' bindtap="nextPage" id='{{index}}'>
+        <view class='vague'></view>
+        <image src="{{item.src}}"></image>
+        <text class='lingoText'>{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="core_class">
+    <view>
+      <view class='lingoTitle'>LingoCode 提升飞跃课程</view>
+      <view wx:for="{{advanceTitle}}" class='lingoInfo lingoInfo{{[index]}}' wx:key='{{index}}' bindtap="advanceNextPage" id='{{index}}'>
+        <view class='vague'></view>
+        <view class='vague2'></view>
+        <image src="{{item.src}}"></image>
+        <text class='lingoText'>{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="weui-footer weui-center">- 我没有底线的 -</view>
 </view>

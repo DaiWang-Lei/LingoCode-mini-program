@@ -1,111 +1,118 @@
 page {
-  background-color: #f8f8f8;
-}
-
-.page__bd, .weui-panel {
-  margin-top: 30rpx;
+    background-color: #fff;
 }
 
 .page__hd {
-  padding: 20rpx 35rpx 0 35rpx;
+    margin-left: 100rpx;
+    font-size: xx-large;
+    opacity: 0.75;
+    font-weight: bold;
+    /* color: #000080; */
 }
 
-.weui-footer {
-  margin: 50rpx 0;
+.page__bd {
+    width: 750rpx;
+    height: 300rpx;
+    margin-bottom: 80rpx;
 }
 
-.weui-center {
-  text-align: center;
+.topImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.border-shadow {
-  border: 1px #dee1e8 solid;
-  border-radius: 15rpx;
-  box-shadow: 0 10rpx 35rpx #dee1e8;
+.weui-grids {
+    width: 600rpx;
+    height: 300rpx;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20rpx;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01), 0 6px 6px rgba(0, 0, 0, 0.03);
 }
 
-.border-shadow .weui-panel__hd {
-  padding: 15rpx 30rpx 15rpx;
-  font-size: 15px;
-  color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.who_class {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f8f8;
 }
 
-
-.border-shadow {
-  margin-top: 0;
-  padding-bottom: 0;
-}
-
-.border-shadow .weui-media-box {
-  padding: 30rpx;
-}
-
-.border-shadow{
-  height: auto;
-  line-height: 0;
-  font-size: 80rpx;
-  font-weight: bolder;
-  color: #43b0d1;
-  margin-right: 0.3em;
-}
-
-.border-shadow .weui-media-box__thumb {
-  height: 48px;
-  width: 48px;
-}
-
-.weui-grid {
-  padding: 10px 10px;
-  color: #333;
-  width: 33%;
+.weui-grids image {
+    /* height: 100%; */
+    width: 100%;
 }
 
 .weui-grid__icon {
-  width: 81rpx;
-  height: 81rpx;
-}
-
-.weui-panel:before, .weui-panel:after, .weui-grids, .weui-grid {
-  border: 0;
+    width: 81rpx;
+    height: 81rpx;
 }
 
 .weui-media-box__desc {
-  display: inherit;
-  line-height: 1.8;
-  color: #555;
+    display: inherit;
+    line-height: 1.8;
+    color: #555;
 }
 
 .weui-cells__tips {
-  padding-left: 0px;
+    padding-left: 0px;
 }
 
-.lingoTitle { 
-  font-size: 35rpx;
-  margin-left:30rpx;
-}
-.lingoInfo{
-  height:150rpx;
-  width: 100%;
-  background:white;
-  margin:30rpx;
-}
-.lingoInfoImg{
-  margin:20rpx 0 0 20rpx;
-  width: 81rpx;
-  height: 81rpx;
-}
-.lingoText{
-  position: absolute;
-  margin-left:230rpx;
-  margin-top:50rpx;
-}
-.lingoTime{
-  position: absolute;
-  margin-top:100rpx;
-  margin-left:-90rpx;
-  font-size:26rpx;
+.core_class {
+    width: 750rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 100rpx;
+    text-align: center;
 }
 
+.lingoTitle {
+    font-size: 35rpx;
+    margin: 40rpx 0 20rpx 0;
+    opacity: 0.5;
+}
+
+.core_class .lingoInfo {
+    position: relative;
+    height: 200rpx;
+    width: 600rpx;
+    background: white;
+    margin-bottom: 30rpx;
+    text-align: center;
+    line-height: 200rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.10);
+}
+
+.lingoText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+.vague {
+    position: absolute;
+    width: 100%;
+    height: 240rpx;
+    background-color: #000;
+    opacity: 0.25;
+}
+
+.vague2 {
+    position: absolute;
+    width: 100%;
+    height: 300rpx;
+    background-color: rgb(68, 68, 219);
+    opacity: 0.25;
+}
+
+.weui-footer {
+    margin-bottom: 20rpx;
+}

@@ -1,15 +1,17 @@
-
 <view class='page__hd'>
   <view class='lingoInfo'>
-        <image class="lingoInfoImg" src="/images/tabbar/table.png" />
-        <text class='lingoText'>{{title}}</text>
-        <text class='lingoTime'>{{theDay}}</text>
-      </view>
-      <view class='rate'>
-        <text> 学习进度</text>
-        <text> {{progress }}</text>
-        <view class='outer'>
-        <view class='inner'></view>
-        </view>
-      </view>
+    <view>
+      <view class='vague'></view>
+      <view class='vague2'></view>
+      <image src="{{imgSrc}}"></image>
+      <view class='lingoText'>{{title}}</view>
+    </view>
+  </view>
+  <view class='rate'>
+    <text>学习进度</text>
+    <text>{{progress }}</text>
+    <view class='outer'>
+      <view class='inner'></view>
+    </view>
+  </view>
 </view>

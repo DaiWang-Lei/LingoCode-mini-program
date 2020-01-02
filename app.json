@@ -1,47 +1,46 @@
 {
-  "pages": [
-    "pages/index/index", 
-    "pages/more/index",
-    "pages/more/help",
-    "pages/more/about",
-    "pages/lingo/basics/parent/parent",
-    "pages/lingo/basics/rudiments/rudiments",
-    "pages/lingo/basics/function/function",
-    "pages/lingo/basics/python/python",
-    "pages/lingo/basics/class/class",
-    "pages/lingo/basics/event/event",
-    "pages/lingo/advance/AI/AI",
-    "pages/lingo/advance/VR/VR",
-    "pages/lingo/advance/IOT/IOT",
-    "pages/lingo/advance/roboot/roboot",
-    "pages/lingo/advance/net/net",
-    "pages/core/table/index",
-    "pages/core/room/index",
-    "pages/core/lib/index"
-  ],
-  "window": {
-    "navigationBarBackgroundColor": "#43B0D1",
-    "backgroundColor": "#43B0D1",
-    "navigationBarTitleText": "Lingo编程",
-    "navigationBarTextStyle": "white",
-    "backgroundTextStyle": "light"
-  },
-  "tabBar": {
-    "selectedColor": "#43B0D1",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "images/tabbar/index.png",
-        "selectedIconPath": "images/tabbar/index@select.png",
-        "text": "课程首页"
-      },
-      {
-        "pagePath": "pages/more/index",
-        "iconPath": "images/tabbar/more.png",
-        "selectedIconPath": "images/tabbar/more@select.png",
-        "text": "个人中心"
-      }
-    ]
-  },
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/index",
+        "pages/more/index",
+        "pages/more/help",
+        "pages/more/about",
+        "pages/lingo/basics/rudiments/rudiments",
+        "pages/lingo/basics/parent/parent",
+        "pages/lingo/basics/function/function",
+        "pages/lingo/basics/python/python",
+        "pages/lingo/basics/class/class",
+        "pages/lingo/basics/event/event",
+        "pages/lingo/advance/AI/AI",
+        "pages/lingo/advance/VR/VR",
+        "pages/lingo/advance/IOT/IOT",
+        "pages/lingo/advance/roboot/roboot",
+        "pages/lingo/advance/net/net",
+        "pages/core/table/index",
+        "pages/core/room/index",
+        "pages/core/lib/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#00688B",
+        "backgroundColor": "#ffffff",
+        "navigationBarTitleText": "Lingo编程",
+        "navigationBarTextStyle": "white",
+        "backgroundTextStyle": "light"
+    },
+    "tabBar": {
+        "selectedColor": "#43B0D1",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "images/tabbar/index.png",
+                "selectedIconPath": "images/tabbar/index@select.png",
+                "text": "课程首页"
+            },
+            {
+                "pagePath": "pages/more/index",
+                "iconPath": "images/tabbar/more.png",
+                "selectedIconPath": "images/tabbar/more@select.png",
+                "text": "个人中心"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
 }
