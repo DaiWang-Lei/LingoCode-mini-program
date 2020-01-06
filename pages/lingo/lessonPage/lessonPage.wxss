@@ -62,7 +62,7 @@
     position: absolute;
     margin: 10rpx 20rpx;
     height: 20rpx;
-    background: rgb(68, 68, 219);
+    background: #82BAD3;
     border-radius: 50rpx;
 }
 
