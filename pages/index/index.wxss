@@ -29,7 +29,8 @@ page {
     background-color: #fff;
     border-radius: 20rpx;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01), 0 6px 6px rgba(0, 0, 0, 0.03);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01), 0 6px 6px rgba(0, 0, 0, 0.03); */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
 
 .who_class {
@@ -38,10 +39,10 @@ page {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f8f8f8;
+    font-size: 35rpx;
 }
 
 .weui-grids image {
-    /* height: 100%; */
     width: 100%;
 }
 
@@ -78,7 +79,7 @@ page {
 
 .core_class .lingoInfo {
     position: relative;
-    height: 200rpx;
+    height: 280rpx;
     width: 600rpx;
     background: white;
     margin-bottom: 30rpx;
@@ -86,21 +87,34 @@ page {
     line-height: 200rpx;
     border-radius: 20rpx;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+
+.lingoInfo image {
+    width: 100%;
 }
 
 .lingoText {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white
+    color: white;
+}
+
+.lingoLevel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    color: white;
+    font-size: 35rpx;
 }
 
 .vague {
     position: absolute;
     width: 100%;
-    height: 240rpx;
+    height: 300rpx;
     background-color: #000;
     opacity: 0.25;
 }

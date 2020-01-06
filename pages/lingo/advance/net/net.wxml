@@ -1,4 +1,0 @@
-
-<view class="" hover-class="none" hover-stop-propagation="false">
-  <lingo title='网络编程' progress='已完成步骤0/2' theDay='{{theDay}}' ></lingo>
-</view>

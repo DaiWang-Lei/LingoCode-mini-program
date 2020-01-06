@@ -9,7 +9,7 @@
     <view class="topImg">
       <view class="weui-grids">
         <view class='vague2'></view>
-        <image src="../../images/lingo/how2.jpg" mode='widthFix'></image>
+        <image src="../../images/lingo/how.jpg" mode='widthFix'></image>
         <text class="who_class">点击了解如何上课</text>
       </view>
     </view>
@@ -19,18 +19,20 @@
       <view class='lingoTitle'>LingoCode 核心基础课程</view>
       <view wx:for="{{basicsTitle}}" class='lingoInfo lingoInfo{{[index]}}' wx:key='{{index}}' bindtap="nextPage" id='{{index}}'>
         <view class='vague'></view>
-        <image src="{{item.src}}"></image>
+        <image src="{{item.src}}" mode="widthFix"></image>
+        <text class='lingoLevel'> Level {{index}}</text>
         <text class='lingoText'>{{item.title}}</text>
       </view>
     </view>
   </view>
   <view class="core_class">
     <view>
-      <view class='lingoTitle'>LingoCode 提升飞跃课程</view>
+      <view class='lingoTitle'>LingoCode 高级应用课程</view>
       <view wx:for="{{advanceTitle}}" class='lingoInfo lingoInfo{{[index]}}' wx:key='{{index}}' bindtap="advanceNextPage" id='{{index}}'>
         <view class='vague'></view>
         <view class='vague2'></view>
-        <image src="{{item.src}}"></image>
+        <image src="{{item.src}}" mode="widthFix"></image>
+        <text class='lingoLevel'> Advanced {{index+1}}</text>
         <text class='lingoText'>{{item.title}}</text>
       </view>
     </view>

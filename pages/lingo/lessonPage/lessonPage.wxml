@@ -1,0 +1,22 @@
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+  <!-- <lingo title='{{title}}' progress='已完成步骤{{tip}}/{{tips}}'  imgSrc='{{imgSrc}}' tip='{{tip}}'tips='{{tips}}'  bind:getTips='changeTips'></lingo> -->
+  <view class='page__hd' bindtap="getTips">
+  <view class='lingoInfo'>
+    <view>
+      <view class='vague'></view>
+      <view class='vague2'></view>
+      <image src="{{imgSrc}}" mode="widthFix"></image>
+      <view class='lingoText'>{{title}}</view>
+    </view>
+  </view>
+  <view class='rate'>
+    <text>学习进度</text>
+    <text>步骤 {{tip}}/{{tips}}</text>
+    <view class='outer'>
+      <view class='inner'></view>
+      <view class='innerin' style="width:{{inner}}rpx"></view>
+    </view>
+  </view>
+</view>
+</view>

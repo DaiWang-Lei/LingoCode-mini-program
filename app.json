@@ -4,17 +4,7 @@
         "pages/more/index",
         "pages/more/help",
         "pages/more/about",
-        "pages/lingo/basics/rudiments/rudiments",
-        "pages/lingo/basics/parent/parent",
-        "pages/lingo/basics/function/function",
-        "pages/lingo/basics/python/python",
-        "pages/lingo/basics/class/class",
-        "pages/lingo/basics/event/event",
-        "pages/lingo/advance/AI/AI",
-        "pages/lingo/advance/VR/VR",
-        "pages/lingo/advance/IOT/IOT",
-        "pages/lingo/advance/roboot/roboot",
-        "pages/lingo/advance/net/net",
+        "pages/lingo/lessonPage/lessonPage",        
         "pages/core/table/index",
         "pages/core/room/index",
         "pages/core/lib/index"
@@ -27,18 +17,19 @@
         "backgroundTextStyle": "light"
     },
     "tabBar": {
-        "selectedColor": "#43B0D1",
+        "color": "#757575",
+        "selectedColor": "#00688D",
         "list": [{
                 "pagePath": "pages/index/index",
-                "iconPath": "images/tabbar/index.png",
-                "selectedIconPath": "images/tabbar/index@select.png",
+                "iconPath": "images/tabbar/home.png",
+                "selectedIconPath": "images/tabbar/home_select.png",
                 "text": "课程首页"
             },
             {
                 "pagePath": "pages/more/index",
-                "iconPath": "images/tabbar/more.png",
-                "selectedIconPath": "images/tabbar/more@select.png",
-                "text": "个人中心"
+                "iconPath": "images/tabbar/user.png",
+                "selectedIconPath": "images/tabbar/user_select.png",
+                "text": "个人中心" 
             }
         ]
     },
