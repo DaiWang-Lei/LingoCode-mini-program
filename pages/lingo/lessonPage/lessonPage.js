@@ -7,9 +7,14 @@ Page({
     data: {
         title: "",
         imgSrc: "",
-        tip: '1',
+        tip: '2',
         tips: '3',
-        inner: ''
+        inner: '',
+        hour: '0',
+        minute: '1',
+        second: '19',
+        flag: false
+
     },
     async onLoad(options) {
         const lesson = data.basicsTitle[parseFloat(options.lesson)];
@@ -40,7 +45,11 @@ Page({
             inner: progress * 600
         })
     },
-
+    toggle() {
+        this.setData({
+            flag: !data.flag
+        })
+    },
     /**
      * 用户点击右上角分享
      */

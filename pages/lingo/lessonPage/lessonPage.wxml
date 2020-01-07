@@ -1,7 +1,4 @@
-
-<view class="" hover-class="none" hover-stop-propagation="false">
-  <!-- <lingo title='{{title}}' progress='已完成步骤{{tip}}/{{tips}}'  imgSrc='{{imgSrc}}' tip='{{tip}}'tips='{{tips}}'  bind:getTips='changeTips'></lingo> -->
-  <view class='page__hd' bindtap="getTips">
+<view class='page__hd' bindtap="getTips">
   <view class='lingoInfo'>
     <view>
       <view class='vague'></view>
@@ -18,5 +15,11 @@
       <view class='innerin' style="width:{{inner}}rpx"></view>
     </view>
   </view>
-</view>
+  <view class="timeBox">
+    <view class="timeView">
+      <text class="time-title">所用时间</text>
+      <text class="timeInfo">{{hour}}时{{minute}}分{{second}}秒</text>
+    </view>
+  </view>
+  <button class="checkBtn" disabled="{{flag}}" bindtap='toggle'>点击查看作品</button>
 </view>

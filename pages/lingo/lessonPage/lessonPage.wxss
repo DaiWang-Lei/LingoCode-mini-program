@@ -37,6 +37,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 20rpx;
 }
 
 .outer {
@@ -80,4 +81,34 @@
     height: 200rpx;
     background-color: rgb(68, 68, 219);
     opacity: 0.25;
+}
+
+.timeBox {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 200rpx;
+    width: 700rpx;
+    margin: 100rpx 0 0 25rpx;
+    border-radius: 20rpx;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.time-title {
+    display: block;
+    width: 100%;
+}
+
+.timeInfo {
+    display: block;
+    width: 100%;
+}
+
+.checkBtn {
+    margin-top: 400rpx;
+    margin-left: 45rpx;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05);
+    background-color: rgb(38, 139, 206);
 }

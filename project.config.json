@@ -42,7 +42,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -61,6 +61,13 @@
 					"name": "关于凌高",
 					"pathName": "pages/more/about",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/lingo/lessonPage/lessonPage",
+					"pathName": "pages/lingo/lessonPage/lessonPage",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
