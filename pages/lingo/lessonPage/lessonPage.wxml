@@ -1,25 +1,27 @@
-<view class='page__hd' bindtap="getTips">
-  <view class='lingoInfo'>
-    <view>
-      <view class='vague'></view>
-      <view class='vague2'></view>
-      <image src="{{imgSrc}}" mode="widthFix"></image>
-      <view class='lingoText'>{{title}}</view>
+<view class="outbox">
+  <view class='page__hd' bindtap="getTips">
+    <view class='lingoInfo'>
+      <view>
+        <view class='vague'></view>
+        <view class='vague2'></view>
+        <image src="{{imgSrc}}" mode="widthFix"></image>
+        <view class='lingoText'>{{title}}</view>
+      </view>
     </view>
-  </view>
-  <view class='rate'>
-    <text>学习进度</text>
-    <text>步骤 {{tip}}/{{tips}}</text>
-    <view class='outer'>
-      <view class='inner'></view>
-      <view class='innerin' style="width:{{inner}}rpx"></view>
+    <view class='rate'>
+      <text>学习进度</text>
+      <text>步骤 {{tip}}/{{tips}}</text>
+      <view class='outer'>
+        <view class='inner'></view>
+        <view class='innerin' style="width:{{inner}}rpx"></view>
+      </view>
     </view>
-  </view>
-  <view class="timeBox">
-    <view class="timeView">
-      <text class="time-title">所用时间</text>
-      <text class="timeInfo">{{hour}}时{{minute}}分{{second}}秒</text>
+    <view class="timeBox">
+      <view class="timeView">
+        <text class="time-title">学习时间</text>
+        <text class="timeInfo">{{hour}}时{{minute}}分{{second}}秒</text>
+      </view>
     </view>
+    <button class="checkBtn" disabled="{{flag}}" bindtap='toggle'>点击查看作品</button>
   </view>
-  <button class="checkBtn" disabled="{{flag}}" bindtap='toggle'>点击查看作品</button>
 </view>
