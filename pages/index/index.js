@@ -19,27 +19,27 @@ Page({
 
             case 0:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?lesson=0'
+                    url: '/pages/lingo/lessonPage/lessonPage?lesson=0'
                 })
                 break;
             case 1:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?lesson=1'
+                    url: '/pages/lingo/lessonPage/lessonPage?lesson=1'
                 })
                 break;
             case 2:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?lesson=2'
+                    url: '/pages/lingo/lessonPage/lessonPage?lesson=2'
                 })
                 break;
             case 3:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?lesson=3'
+                    url: '/pages/lingo/lessonPage/lessonPage?lesson=3'
                 })
                 break;
             case 4:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?lesson=4'
+                    url: '/pages/lingo/lessonPage/lessonPage?lesson=4'
                 })
                 break;
         }
@@ -49,27 +49,27 @@ Page({
         switch (id) {
             case 0:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?advance=0'
+                    url: '/pages/lingo/lessonPage/lessonPage?advance=0'
                 })
                 break;
             case 1:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?advance=1'
+                    url: '/pages/lingo/lessonPage/lessonPage?advance=1'
                 })
                 break;
             case 2:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?advance=2'
+                    url: '/pages/lingo/lessonPage/lessonPage?advance=2'
                 })
                 break;
             case 3:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?advance=3'
+                    url: '/pages/lingo/lessonPage/lessonPage?advance=3'
                 })
                 break;
             case 4:
                 wx.navigateTo({
-                    url: '../lingo/lessonPage/lessonPage?advance=4'
+                    url: '/pages/lingo/lessonPage/lessonPage?advance=4'
                 })
                 break;
         }

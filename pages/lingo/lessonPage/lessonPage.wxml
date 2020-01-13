@@ -1,27 +1,49 @@
-<view class="outbox">
-  <view class='page__hd' bindtap="getTips">
-    <view class='lingoInfo'>
-      <view>
-        <view class='vague'></view>
-        <view class='vague2'></view>
-        <image src="{{imgSrc}}" mode="widthFix"></image>
-        <view class='lingoText'>{{title}}</view>
+<view class='page__hd' bindtap="getTips">
+  <view class='lingoInfo'>
+    <view>
+      <view class='vague'></view>
+      <view class='vague2'></view>
+      <image src="{{imgSrc}}" mode="widthFix"></image>
+      <view class='lingoText'>{{title}}</view>
+    </view>
+  </view>
+  <view class='rate'>
+    <text>学习进度</text>
+    <text class="tip">步骤 {{tip}}/{{tips}}</text>
+    <view class='outer'>
+      <view class='inner'></view>
+      <view class='innerin' style="width:{{inner}}rpx"></view>
+    </view>
+  </view>
+  <view class="timeBox">
+    <view class="timeView">
+      <text class="time-title">学习时间</text>
+      <text class="timeInfo">{{hour}}时{{minute}}分{{second}}秒</text>
+    </view>
+  </view>
+  <!-- class info -->
+  <view wx:for="{{class_data}}" wx:key="{{index}}">
+    <view class="class-info">
+      <image class="class-info-img" src="{{item.src}}" lazy-load />
+      <text class="class-info-title">{{item.title}}</text>
+      <text class="class-info-msg">{{item.message}}</text>
+      <view class='class-info-outer'>
+        <view class='class-info-inner'></view>
+        <view class='class-info-innerin' style="width:{{class_inner}}rpx"></view>
       </view>
     </view>
-    <view class='rate'>
-      <text>学习进度</text>
-      <text>步骤 {{tip}}/{{tips}}</text>
-      <view class='outer'>
-        <view class='inner'></view>
-        <view class='innerin' style="width:{{inner}}rpx"></view>
+  </view>
+  <!-- 查看作品 -->
+  <button class="checkBtn" disabled="{{flag}}" bindtap='ShowModal'>点击查看作品</button>
+  <!-- custom Modal -->
+  <view class="modal-mask" bindtap="hideModal" wx:if="{{showModal}}"></view>
+  <view wx:if="{{showModal}}">
+    <view class="modal-content">
+      <view class="modal-title">好棒的作品</view>
+      <view class="img-box">
+        <image class="modal-img" src="{{imgSrc}}" mode="scaleToFill"></image>
       </view>
+      <button bindtap="hideModal" class="btn ">点击关闭</button>
     </view>
-    <view class="timeBox">
-      <view class="timeView">
-        <text class="time-title">学习时间</text>
-        <text class="timeInfo">{{hour}}时{{minute}}分{{second}}秒</text>
-      </view>
-    </view>
-    <button class="checkBtn" disabled="{{flag}}" bindtap='toggle'>点击查看作品</button>
   </view>
 </view>

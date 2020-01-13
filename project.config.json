@@ -19,8 +19,8 @@
 		"enhance": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.9",
-	"appid": "wx250d21ea6a1f4fcc",
+	"libVersion": "2.10.0",
+	"appid": "wx92f005c1ebc9f409",
 	"projectname": "LingoCode-mini-program",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},

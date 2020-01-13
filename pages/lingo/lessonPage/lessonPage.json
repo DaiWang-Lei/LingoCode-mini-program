@@ -1,4 +1,6 @@
 {
     "navigationBarTitleText": "课程进度",
-    "usingComponents": {}
+    "usingComponents": {
+        "card": "../../../comments/card"
+    }
 }

@@ -1,16 +1,8 @@
-.outbox {
-    width: 100%;
-    height: 100%;
-    background: rgb(221, 232, 235);
-    margin: 0;
-    padding: 0;
-}
-
 .page__hd {
-    width: 700rpx;
-    height: 100vh;
+    position: relative;
+    height: 100%;
     padding-top: 20rpx;
-    /* padding: 20rpx 35rpx 0 35rpx; */
+    background: #eee;
 }
 
 .lingoInfo {
@@ -41,7 +33,7 @@
 
 .rate {
     display: flex;
-    margin-left: 30rpx;
+    margin: 0rpx 30rpx 0rpx 30rpx;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -51,27 +43,21 @@
 .outer {
     position: relative;
     width: 100%;
-    height: 40rpx;
-    background: #bbb;
-    border-radius: 50rpx;
-    padding-left: 21rpx;
 }
 
 .inner {
-    margin: 10rpx 20rpx;
-    width: 91%;
+    margin-top: 10rpx;
+    width: 100%;
     height: 20rpx;
     background: #fff;
     border-radius: 50rpx;
 }
 
 .innerin {
-    top: 0;
-    left: 17rpx;
+    top: 10rpx;
     position: absolute;
-    margin: 10rpx 20rpx;
     height: 20rpx;
-    background: #82BAD3;
+    background: #48B7FD;
     border-radius: 50rpx;
 }
 
@@ -92,20 +78,20 @@
 }
 
 .timeBox {
-    text-align: center;
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
+    text-align: center;
     height: 200rpx;
     width: 700rpx;
-    margin: 100rpx 0 0 25rpx;
+    margin: 30rpx 0 0 25rpx;
     border-radius: 20rpx;
     background: rgb(254, 255, 255);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05);
 }
 
 .time-title {
+    margin-top: 30%;
     display: block;
     width: 100%;
     opacity: 0.5;
@@ -117,10 +103,132 @@
     opacity: 0.6;
 }
 
-.checkBtn {
-    opacity: 0.75;
-    margin-top: 400rpx;
-    margin-left: 45rpx;
+.class-info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200rpx;
+    width: 700rpx;
+    margin: 30rpx 0 0 25rpx;
+    align-items: center;
+    border-radius: 20rpx;
+    background: rgb(254, 255, 255);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05);
-    background-color: rgb(38, 139, 206);
+}
+
+.class-info-img {
+    width: 200rpx;
+    height: 130rpx;
+    margin-left: 40rpx;
+    margin-top: 20rpx;
+    border-radius: 20rpx;
+}
+
+.class-info-title {
+    margin-left: 25rpx;
+    margin-top: -50rpx;
+    opacity: 0.75;
+}
+
+.class-info-msg {
+    font-size: 22rpx;
+    position: absolute;
+    left: 38%;
+    opacity: 0.75;
+    top: 90rpx;
+}
+
+.class-info-outer {
+    position: relative;
+    width: 50%;
+}
+
+.class-info-inner {
+    top: -50rpx;
+    left: 270rpx;
+    position: absolute;
+    height: 20rpx;
+    width: 100%;
+    background: rgb(199, 198, 198);
+    border-radius: 50rpx;
+}
+
+.class-info-innerin {
+    top: -50rpx;
+    left: 270rpx;
+    position: absolute;
+    height: 20rpx;
+    background: #48B7FD;
+    border-radius: 50rpx;
+}
+
+.checkBtn {
+    width: 400rpx;
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    background-color: #48B7FD;
+    border-radius: 45rpx;
+}
+
+
+/* for custom modal */
+
+.modal-mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    overflow: hidden;
+    z-index: 9000;
+    color: #fff;
+}
+
+.modal-content {
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 9500;
+    width: 500rpx;
+    height: 55%;
+    overflow: hidden;
+    padding: 120rpx 50rpx 50rpx;
+    background-color: bisque;
+    margin: -180rpx 70rpx;
+    border-radius: 20rpx;
+}
+
+.modal-title {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-box {
+    width: 100%;
+    height: 480rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+}
+
+.modal-img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* for stars */
+
+.btn {
+    width: 300rpx;
+    height: 75rpx;
+    font-size: 30rpx;
+    background: #48B7FD;
+    margin: 100rpx auto;
+    border-radius: 50rpx;
 }

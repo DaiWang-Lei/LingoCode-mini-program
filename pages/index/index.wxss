@@ -72,14 +72,14 @@ page {
 }
 
 .lingoTitle {
-    font-size: 35rpx;
+    font-size: 40rpx;
     margin: 40rpx 0 20rpx 0;
     opacity: 0.5;
 }
 
 .core_class .lingoInfo {
     position: relative;
-    height: 280rpx;
+    height: 210rpx;
     width: 600rpx;
     background: white;
     margin-bottom: 30rpx;

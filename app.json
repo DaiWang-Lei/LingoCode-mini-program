@@ -4,21 +4,21 @@
         "pages/more/index",
         "pages/more/help",
         "pages/more/about",
-        "pages/lingo/lessonPage/lessonPage",        
+        "pages/lingo/lessonPage/lessonPage",
         "pages/core/table/index",
         "pages/core/room/index",
         "pages/core/lib/index"
     ],
     "window": {
-        "navigationBarBackgroundColor": "#00688B",
+        "navigationBarBackgroundColor": "#48B7FD",
         "backgroundColor": "#ffffff",
-        "navigationBarTitleText": "Lingo编程",
+        "navigationBarTitleText": "凌高编程",
         "navigationBarTextStyle": "white",
         "backgroundTextStyle": "light"
     },
     "tabBar": {
         "color": "#757575",
-        "selectedColor": "#00688D",
+        "selectedColor": "#48B7FD",
         "list": [{
                 "pagePath": "pages/index/index",
                 "iconPath": "images/tabbar/home.png",
@@ -29,7 +29,7 @@
                 "pagePath": "pages/more/index",
                 "iconPath": "images/tabbar/user.png",
                 "selectedIconPath": "images/tabbar/user_select.png",
-                "text": "个人中心" 
+                "text": "个人中心"
             }
         ]
     },
